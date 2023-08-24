@@ -1,5 +1,5 @@
 import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa'
-import { SiTypescript, SiVitess, SiJavascript } from 'react-icons/si'
+import { SiTypescript, SiVitest, SiJavascript } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
 
 export default function Languagens() {
@@ -23,7 +23,7 @@ export default function Languagens() {
             <SiTypescript className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
             <FaReact className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
             <TbBrandNextjs className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
-            <SiVitess className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
+            <SiVitest className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
           </div>
         </div>
       </div>
