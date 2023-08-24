@@ -1,7 +1,7 @@
 export default function Summary() {
   return (
     <div
-      className="flex flex-col xl:order-none order-1 relative z-10 justify-center items-center w-96 gap-4 bg-[#ffffff] p-2 rounded-xl border border-[#e7e5e5] shadow-inherit
+      className="flex flex-col xl:order-none order-1 relative z-10 justify-center items-center w-80 sm:w-96 gap-4 bg-[#ffffff] p-2 rounded-xl border border-[#e7e5e5] shadow-inherit
     dark:bg-[#222222] dark:border-[#3b3b3b] dark:text-white"
     >
       <div className="flex justify-between items-center w-full border-b border-dashed dark:border-[#f7f1f10e] pb-1">

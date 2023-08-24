@@ -4,7 +4,7 @@ export default function Project() {
   return (
     <div className="flex flex-col justify-center items-center xl:order-none order-5 gap-5">
       <div
-        className="flex flex-col relative z-10 h-3/6 items-center w-96 gap-2 bg-[#ffffff] p-2 rounded-xl border border-[#e7e5e5] shadow-inherit
+        className="flex flex-col relative z-10 h-3/6 items-center w-80 sm:w-96 gap-2 bg-[#ffffff] p-2 rounded-xl border border-[#e7e5e5] shadow-inherit
     dark:bg-[#222222] dark:border-[#3b3b3b] dark:text-white"
       >
         <div className="flex justify-between items-center w-full border-b border-dashed dark:border-[#f7f1f10e] pb-1">
@@ -22,7 +22,7 @@ export default function Project() {
       </div>
 
       <div
-        className="flex flex-col relative z-10 h-3/6 items-center w-96 gap-2 bg-[#ffffff] p-2 rounded-xl border border-[#e7e5e5] shadow-inherit
+        className="flex flex-col relative z-10 h-3/6 items-center w-80 sm:w-96 gap-2 bg-[#ffffff] p-2 rounded-xl border border-[#e7e5e5] shadow-inherit
     dark:bg-[#222222] dark:border-[#3b3b3b] dark:text-white"
       >
         <div className="flex justify-between items-center w-full border-b border-dashed dark:border-[#f7f1f10e] pb-1 ">

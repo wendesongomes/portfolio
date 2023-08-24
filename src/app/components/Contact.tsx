@@ -7,7 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 export default function Contact() {
   return (
     <div
-      className="flex flex-col xl:order-none order-4 elative z-10 items-center w-96 gap-5 bg-[#ffffff] p-2 rounded-xl border border-[#e7e5e5] shadow-inherit
+      className="flex flex-col xl:order-none order-4 elative z-10 items-center w-80 sm:w-96 gap-5 bg-[#ffffff] p-2 rounded-xl border border-[#e7e5e5] shadow-inherit
     dark:bg-[#222222] dark:border-[#3b3b3b] dark:text-white"
     >
       <div className="flex justify-between items-center w-full border-b border-dashed dark:border-[#f7f1f10e] pb-1">

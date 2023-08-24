@@ -3,12 +3,12 @@ import Image from 'next/image'
 export default function UserInfo() {
   return (
     <div
-      className="flex justify-between items-center gap-4 bg-[#ffffff] p-2 rounded-full border border-[#e7e5e5] shadow-inherit relative z-10
+      className="flex justify-between items-center gap-4 bg-[#ffffff] w-80 sm:w-96 p-2 rounded-full border border-[#e7e5e5] shadow-inherit relative z-10
       dark:bg-[#222222] dark:border-[#3b3b3b] dark:text-white"
     >
       <div className="flex justify-center items-center gap-2">
         <Image
-          src="/photoPerfil.jpg"
+          src="/docs/photoPerfil.jpg"
           alt=""
           width={56}
           height={56}
