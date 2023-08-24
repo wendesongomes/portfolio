@@ -14,7 +14,7 @@ export default function UserInfo() {
           height={56}
           className="rounded-full"
         />
-        <div className="flex flex-col">
+        <div className="flex sm:flex-col sm:gap-0 gap-2">
           <h1 className="font-bold text-sm">Wendeson Gomes</h1>
           <p className="font-mono text-xs">Developer Front-End</p>
         </div>
