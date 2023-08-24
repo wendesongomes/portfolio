@@ -45,7 +45,7 @@ export default function Project() {
 
         <a className="flex flex-col gap-2">
           <Image
-            src="/twitterPrint.png"
+            src="/portfolio/twitterPrint.png"
             alt=""
             width={500}
             height={200}

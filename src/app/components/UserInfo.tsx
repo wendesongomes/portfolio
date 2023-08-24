@@ -6,9 +6,9 @@ export default function UserInfo() {
       className="flex justify-between items-center gap-4 bg-[#ffffff] w-80 sm:w-96 p-2 rounded-full border border-[#e7e5e5] shadow-inherit relative z-10
       dark:bg-[#222222] dark:border-[#3b3b3b] dark:text-white"
     >
-      <div className="flex justify-center items-center gap-2">
+      <div className="flex justify-center items-center sm:pl-0 pl-3 gap-2">
         <Image
-          src="/docs/photoPerfil.jpg"
+          src="/portfolio/photoPerfil.jpg"
           alt=""
           width={56}
           height={56}
