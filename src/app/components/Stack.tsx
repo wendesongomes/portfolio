@@ -1,5 +1,5 @@
 import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa'
-import { SiTypescript, SiVitess, SiJavascript } from 'react-icons/si'
+import { SiTypescript, SiVitest, SiJavascript } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
 
 export default function Languagens() {
@@ -17,13 +17,34 @@ export default function Languagens() {
         </div>
         <div className="dark:bg-[#1a1a1a] bg-[#F0EEFC] w-full flex flex-col justify-center items-center rounded-lg p-2 gap-3 ">
           <div className="flex justify-center items-center gap-5 sm:text-3xl text-xl">
-            <FaHtml5 className=" dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
-            <FaCss3Alt className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
-            <SiJavascript className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
-            <SiTypescript className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
-            <FaReact className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
-            <TbBrandNextjs className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
-            <SiVitess className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded" />
+            <FaHtml5
+              title="HTML"
+              className=" dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded"
+            />
+            <FaCss3Alt
+              title="CSS"
+              className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded"
+            />
+            <SiJavascript
+              title="JavaScript"
+              className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded"
+            />
+            <SiTypescript
+              title="Typescript"
+              className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded"
+            />
+            <FaReact
+              title="React"
+              className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded"
+            />
+            <TbBrandNextjs
+              title="NextJs"
+              className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded"
+            />
+            <SiVitest
+              title="ViteJs"
+              className="dark:text-[#414141] text-[#c0c0c0] hover:text-black hover:dark:text-white rounded"
+            />
           </div>
         </div>
       </div>

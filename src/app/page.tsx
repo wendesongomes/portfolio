@@ -9,7 +9,7 @@ export default function Home() {
     <div className="w-screen flex flex-col justify-center items-center py-20 gap-4">
       <UserInfo />
 
-      <span className="xl:w-[500px] w-[1000px] xl:top-44 top-[420px] relative -z-1 border-b border-[#0000004f] dark:border-[#f7f1f12d] rotate-90"></span>
+      <span className="xl:w-[460px] w-[1300px] xl:top-36 top-[600px] relative -z-1 border-b border-[#0000004f] dark:border-[#f7f1f12d] rotate-90"></span>
 
       <div className="flex flex-col justify-center items-center xl:flex-row xl:gap-0 gap-3">
         <Stack />
